@@ -1,0 +1,128 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+head{
+}
+h1{
+  letter-spacing: 3px;
+}
+h2{
+  letter-spacing: 3px;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 10px
+
+}
+
+/* Layout */
+
+section {
+
+}
+
+main {
+display: flex;
+}
+
+aside {
+
+}
+
+nav {
+display: flex;
+}
+
+footer {
+
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  text-align: center;
+}
+p{
+  text-indent: 20px;
+}
+body{
+  font-family: 'Playfair Display', serif;
+}
+h1{
+text-align: center;
+font-size: 30px;
+}
+a {
+  color: #a66;
+}
+a:visited {
+  color: #8c4e4e;
+}
+a:hover {
+  color: #4c516d;
+}
+a:focus{
+  color: #b56257
+}
+a:link {
+  text-decoration: underline;
+       }
+a:hover {
+  text-decoration: none;
+       }
+a
+       {
+  target-name:new;
+  target-new:tab;
+       }
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+
+}
+#buttons li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color: #ffffff;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 150px;
+  line-height: 50px;
+  border: .5px solid #a66;
+  padding: 0px;
+
+}
+#buttons li a {
+  text-decoration: none;
+  color: #a66;
+  display: block;
+}
+
+#buttons li a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #a66;
+}
